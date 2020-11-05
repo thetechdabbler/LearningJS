@@ -1,0 +1,27 @@
+{
+  "name": "learningjs",
+  "version": "1.0.0",
+  "description": "A JavaScript learning path",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server 'src' --files 'src'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cspdabbler/LearningJS.git"
+  },
+  "keywords": [
+    "Learning",
+    "JavaScript"
+  ],
+  "author": "Manish Choudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cspdabbler/LearningJS/issues"
+  },
+  "homepage": "https://github.com/cspdabbler/LearningJS#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
